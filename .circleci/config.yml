@@ -13,6 +13,3 @@ jobs:
 
     steps:
       - checkout
-       
-      # run tests!
-      - run: phpunit
