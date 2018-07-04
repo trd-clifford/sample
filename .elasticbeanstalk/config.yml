@@ -6,5 +6,4 @@ global:
   default_ec2_keyname: rws-key
   default_platform: Multi-container Docker running on 64bit Amazon Linux/2.11.0
   default_region: us-west-2
-  profile: eb-cli
   sc: git
