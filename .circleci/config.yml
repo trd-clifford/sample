@@ -17,7 +17,8 @@ jobs:
 
       - run:
           name: Deploying
-          command: eb deploy $CIRCLE_BRANCH-RWS
+          branch: master
+          command: eb deploy --profile default
 
 workflows:
   version: 2
