@@ -3,7 +3,7 @@ jobs:
   deploy:
     working_directory: ~/app
     docker:
-      - image: circleci/ruby:2.4.3
+      - image: circleci/php:7.1.5-browsers
     steps:
       - checkout
 
@@ -17,7 +17,7 @@ jobs:
 
       - run:
           name: Deploying
-          command: eb deploy $CIRCLE_BRANCH-my-application
+          command: eb deploy $CIRCLE_BRANCH-RWS
 
 workflows:
   version: 2
