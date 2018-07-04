@@ -17,8 +17,7 @@ jobs:
 
       - run:
           name: Deploying
-          branch: master
-          command: eb deploy --profile default
+          command: eb deploy sample-RWS
 
 workflows:
   version: 2
@@ -28,5 +27,4 @@ workflows:
           filters:
             branches:
               only:
-                - staging
                 - master
