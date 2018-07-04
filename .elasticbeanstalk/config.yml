@@ -7,3 +7,4 @@ global:
   default_platform: Multi-container Docker running on 64bit Amazon Linux/2.11.0
   default_region: us-west-2
   sc: git
+  #sdsa
