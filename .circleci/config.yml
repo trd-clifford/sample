@@ -23,5 +23,12 @@ jobs:
         - sudo apt-get install python-dev
         - sudo pip install awsebcli
         
+    deployment:
+      production:
+        branch: master
+          commands:
+            - bash ./setup-eb.sh
+            - eb deploy
+            
     steps:
       - checkout
