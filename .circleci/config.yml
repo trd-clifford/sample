@@ -18,7 +18,7 @@ jobs:
 
       - run:
           name: Deploying
-          command: eb deploy sample-RWS
+          command: eb deploy master-RWS
 
 workflows:
   version: 2
