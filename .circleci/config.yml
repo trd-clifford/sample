@@ -17,6 +17,7 @@ jobs:
           command: |
             eb use master-RWS
             eb deploy -v --staged
+           
  
 workflows:
   version: 2
