@@ -1,11 +1,11 @@
 branch-defaults:
   master:
-    environment: master-RWS
+    environment: Rws-env1
 global:
   application_name: RWS
   branch: null
   default_ec2_keyname: rws-key
-  default_platform: 64bit Amazon Linux/2.11.0 running Multi-container Docker
+  default_platform: 64bit Amazon Linux/2.7.1 running on PHP 7.1
   default_region: us-west-2
   instance_profile: null
   platform_name: null
