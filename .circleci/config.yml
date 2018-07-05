@@ -1,7 +1,7 @@
 version: 2
 jobs:
   deploy:
-    working_directory: ~/repo
+    working_directory: ~/sample
     docker:
       - image: circleci/php:7.1.5-browsers
     steps:
