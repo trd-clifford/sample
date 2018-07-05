@@ -1,6 +1,6 @@
 branch-defaults:
   master:
-    environment: Rws-env1
+    environment: master-RWS
 global:
   application_name: RWS
   branch: null
