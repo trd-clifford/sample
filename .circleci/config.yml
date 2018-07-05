@@ -15,7 +15,7 @@ jobs:
       - run:
           name: Deploy to EB if branch is Master
           command: |
-            eb use master-RWS
+            eb use Rws-env1
             eb deploy -v --staged
  
 workflows:
